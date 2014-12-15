@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+<!DOCTYPE html >
+
+{% load static %}
+	
+{% block headers %}
+		<title> Contact Me </title>
+	{% endblock %}
+	{% block content %}
+		<h3> Contact Me </h3>
+		
+		<form action=”” method=”POST”>
+ 
+		<div><table>
+			<tr><td>Name: <br> <input type="text" name="name"></td></tr>
+			<tr><td>E-mail Address: <br> <input type="text" name="email"> </td></tr>
+			<tr><td>Subject: <br> <input type="text" name="subject"> </td></tr>
+			<tr><td>Message: <br> <textarea name="message"></textarea> </td></tr>
+		</table></div>
+		<br>
+		<div>
+			<input type="radio" name=”gender”> Male
+			<input type="radio" name=”gender”> Female
+		</div>
+		<br>
+			<input type="checkbox" name="subscribe" value="yes"> Subscribe to my monthly newsletter! 
+		<div>
+		<br>
+			<input type="button" value="Clear">
+			<input type="button" value="Submit">
+		<br>
+			<a href = "file://localhost/Users/Shir/Desktop/mypage.html"> Back to Homepage</a>
+			
+		
+		</div>
+		</form>
+{% endblock %}
+
+

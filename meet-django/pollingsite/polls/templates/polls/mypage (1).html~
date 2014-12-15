@@ -1,0 +1,33 @@
+<!DOCTYPE html >
+<html>
+	<head>
+		<title> Homepage </title>
+		{% block header %}
+		<h1> hi </h1>
+		{% endblock %}
+
+	</head>
+	<body>
+		<h3> About Me </h3>
+		<p> Hello there!
+		<br>
+		 My name is Shir, and I’m a 16 year old girl living in Jerusalem, Israel. I was born on September 24th, 1998, and was raised until the age of 3 in Israel. 
+		 <br>My family consists of 5 members; my parents, two brothers and I. My older brother is 19 years old and serves in the IDF, and my younger brother is an elementary school student. 
+		<br>I go to school in Leyada which is both a middle school and high school here in Jerusalem, where I study computer science, biology and french, in addition to all the regular classes we are required to take. 
+		<br> Through out my life I’ve lived in several countries, such as in the Philippines and later on in Brussels, Belgium. I got to experience different cultures and meet people who come from different backgrounds, 
+		<br> and I believe these experiences helped shape the person I am today. 
+		<br> Travelling has always been a massive passion of mine, as well as photography and recently baking aswell! I also enjoy art and singing.
+		<br> I speak three languages - Hebrew, English and French, though my french is not fluent, yet (I’m working on it)! 
+		<br> I don’t have much to add, but if you’d like to get to know me more, feel free to <a href = "file://localhost/Users/Shir/Desktop/contactme.html"> contact me! </a> </p>
+
+		<img src = "http://i59.tinypic.com/2h4j24g.jpg" width=300 height=357 ></img>
+
+		<br>
+		
+
+
+
+
+	</body>
+</html>
+	
